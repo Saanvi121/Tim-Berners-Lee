@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+#timsphoto{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#hihii{
+    position: absolute;
+    height: 800px;
+    color: white;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    background: linear-gradient(purple 0%, aqua 100%);
+    display: table;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#infoplace{
+    padding: 50px;
+    text-align: center;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.welcomediv{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    z-index: 10; 
+    cursor: pointer;
+    color: white;
+}
+
+.links {
+    float: down;
+    color: white;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 23px;
+}
+.links:hover{
+    background-color: orangered;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    font-size: 20px
+}
+#toreachme{
+    background-color: aqua;
+}
+#toreachme iframe{
+    width: 100%;
+    
+}
